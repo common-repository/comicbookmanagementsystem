@@ -1,0 +1,118 @@
+
+/**Stylesheet for Comic Book Management System.*/
+
+#cbms_thisweek,
+#cbms_nextweek,
+#cbms_preorder,
+#cbms_showall,
+#cbms_showallavailable{
+	display: block;
+	position: relative;
+	font-family: verdana, sans-serif;
+	background: #F5F5F5;
+	background: rgba(245,245,245, .8);
+	min-height: 12em;	
+	padding-top: 1em;
+	box-sizing: border-box;
+	box-shadow: 0 0 12px #CCCCCC;
+}
+
+#cbms_thisweek h2,
+#cbms_nextweek h2,
+#cbms_preorder h2,
+#cbms_showall h2,
+#cbms_showallavailable h2{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.cbms_book{
+	position: relative;
+	height: 100%;
+	margin: .5em;
+	box-sizing: border-box;
+}
+
+.cbms_img{
+	width: 100%;
+	padding: 0em 1em;
+	box-sizing: border-box;
+}
+
+.cbms_img img{
+	width: 100%;
+	height: auto;
+}
+
+.cbms_info{
+	margin-top: 1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cbms_title{
+	font-size: 1em;
+}
+
+.cbms_diamondcode,
+.cbms_releasedate,
+.cbms_job{
+	font-size: .8em;
+	margin-bottom: .5em;
+}
+
+.cbms_nobooks{
+	margin-top: 2em;
+	text-align: center;
+}
+
+.cbms_cover_display:hover{
+	cursor: pointer;
+}
+
+.cbms_cover_display:hover .cbms_additional_info{
+	display: block;
+}
+
+.cbms_additional_info{
+	display: none;
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	background: rgba(0,0,0,.7);
+	overflow: hidden;
+}
+
+.cbms_additional_info_content{
+	position: relative;
+	height: 100%;
+	padding: 1em;
+	overflow: scroll;
+	box-sizing: border-box;
+}
+
+.owl-nav{
+	font-size: 2em;
+	padding-top: 1.5em;
+}
+
+.owl-prev{
+	position: absolute;
+    left: 45%;
+    bottom: 0em;
+ }
+
+ .owl-next{	
+ 	position: absolute;
+    right: 45%;
+    bottom: 0em;
+ }
+
+
+ .owl-prev:hover, .owl-next :hover{
+	opacity: .5;
+ }
+
